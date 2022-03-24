@@ -39,5 +39,5 @@ jobs:
       - name: Upload
         run: |
           source .venv/bin/activate
-          poetry publish --build --no-interaction --username ${{secrets.PYPI_USERNAME}} --password ${{secrets.PYPI_PASSWORD}}
+          poetry publish --build --username ${{secrets.PYPI_USERNAME}} --password ${{secrets.PYPI_PASSWORD}}
 
