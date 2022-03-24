@@ -12,7 +12,7 @@ $ pip install boostpi
 Launch with:
 
 ```
-python -m boostpi
+$ python -m boostpi
 ```
 
 
