@@ -15,5 +15,25 @@ Launch with:
 $ python -m boostpi
 ```
 
+## Compatibility
 
-[link to a helpful guide while developing](https://medium.com/nerd-for-tech/how-to-build-and-distribute-a-cli-tool-with-python-537ae41d9d78)
+Below is a comprehensive list of raspberry pi boards and their compatibility status. Supporting this project will allow me to add support for more boards!
+
+Keep in mind that each board has different revisions, so your specific board may or may not be supported.
+
+As of the current writing the tool is a work-in-progress, and as such is incompatible with all boards.
+
+This will be updated when the tool is ready for use.
+
+- ❌ Pi 1 Model A (Untested)
+- ❌ Pi 1 Model B (Untested)
+- ❌ Pi 1 Model B+ (Untested)
+- ❌ Pi 2 (Untested)
+- ❌ Pi 3 Model B (Untested)
+- ❌ Pi 3 Model B+ (Untested)
+- ❌ Pi 4 Model B (Untested)
+- ❌ Pi 400 (Untested)
+- ❌ Pi Zero (Untested)
+- ❌ Pi Zero W (Untested)
+- ❌ Pi Zero WH (Untested)
+- ❌ Pi Zero 2 W (Untested)
