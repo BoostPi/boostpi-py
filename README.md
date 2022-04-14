@@ -12,7 +12,7 @@ $ pip install boostpi
 Launch with:
 
 ```
-$ python -m boostpi
+$ sudo python -m boostpi
 ```
 
 ## Compatibility
