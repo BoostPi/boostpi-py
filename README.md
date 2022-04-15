@@ -15,7 +15,7 @@ Launch with:
 ```
 $ sudo python -m boostpi
 ```
-_note_: sudo is required in order to access and modify the /boot partition, where overclocking configuration files are stored.
+**_note_**: `sudo` is required in order to access and modify the /boot partition, where overclocking configuration files are stored.
 
 ## Compatibility
 
