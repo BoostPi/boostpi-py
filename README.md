@@ -1,10 +1,11 @@
-# This is a work in progress! not ready for use yet.
+# This is a work in progress! Not ready for use yet.
 
 # boostpi
 A simple overclocking configuration tool for the raspberry pi built with python
 
 
 ## Installation
+
 ```
 $ pip install boostpi
 ```
