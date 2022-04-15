@@ -11,11 +11,14 @@ EULA_WARNING = """
 
 A copy of the EULA will be saved in your boot directory.
 """
+
+
 EULA_ACCEPT_WARNING = (
     """
 This file exists as a record that I have accepted the EULA for the use of boostpi.
 The following is a copy of the EULA:
-"""+ EULA_WARNING
+"""
+    + EULA_WARNING
 )
 
 
