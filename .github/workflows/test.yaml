@@ -5,7 +5,10 @@ on:
     workflow_call:
 
 jobs:
+    lint:
+        uses: ./.github/workflows/lint.yaml
     test:
+        needs: lint
         runs-on: ubuntu-latest
         steps:
             #----------------------------------------------
