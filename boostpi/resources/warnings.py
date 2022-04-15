@@ -1,3 +1,5 @@
+# coding=utf-8
+
 EULA_WARNING = """
 ⚠️⚠️⚠️ By using this tool, you are agreeing to the following: ⚠️⚠️⚠️
 - You are responsible for any damage caused by this tool.
@@ -6,6 +8,8 @@ EULA_WARNING = """
 - Use of this tool may void your warranty.
 - Use of this tool may make permanent changes to your raspberry pi.
 - Use of this tool may increase performance of your raspberry pi. 🎉
+
+A copy of the EULA will be saved in your boot directory.
 """
 
 
