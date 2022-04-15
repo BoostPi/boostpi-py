@@ -7,7 +7,7 @@ on:
 
 jobs:
     test:
-        uses: ./github/workflows/test.yaml
+        uses: ./github/workflows/test.yaml@1
     deploy-pypi:
         needs: test
         runs-on: ubuntu-latest
