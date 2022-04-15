@@ -6,7 +6,10 @@ on:
             - "main"
 
 jobs:
+    lint:
+        uses: ./.github/workflows/lint.yaml
     test:
+        needs: lint
         uses: ./.github/workflows/test.yaml
     deploy-pypi:
         needs: test
