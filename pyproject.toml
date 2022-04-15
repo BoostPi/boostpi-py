@@ -12,6 +12,8 @@ python = "^3.9"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+black = "^22.3.0"
+
 
 [tool.poetry.scripts]
 boostpi = "boostpi.main:main"

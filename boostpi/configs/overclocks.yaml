@@ -1,8 +1,8 @@
 version: 1.0.0 # sets the version for this configuration
 overclocks:
-  pi:
-    model: BCM2835
-  pi2:
-  pi3:
-  pi4:
-  pi400:
+    pi:
+        model: BCM2835
+    pi2:
+    pi3:
+    pi4:
+    pi400:

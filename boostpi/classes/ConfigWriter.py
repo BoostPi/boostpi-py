@@ -1,2 +1,2 @@
-class ConfigWriter():
+class ConfigWriter:
     pass

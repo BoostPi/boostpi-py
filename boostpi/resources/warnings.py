@@ -13,11 +13,13 @@ A copy of the EULA will be saved in your boot directory.
 """
 
 
-EULA_ACCEPT_WARNING = """
+EULA_ACCEPT_WARNING = (
+    """
 This file exists as a record that I have accepted the EULA for the use of boostpi.
 The following is a copy of the EULA:
-""" + EULA_WARNING
-
+"""
+    + EULA_WARNING
+)
 
 
 WARRANTY_VOID_WARNING = """
@@ -29,9 +31,8 @@ This configuration will set a permanent bit on your pi that can detect if you ha
 BOOT_WARNING = """
 VERY IMPORTANT INSTRUCTIONS:
 
-In the event your pi is unable to boot, or is unstable, disconnect power from the pi. 
-While holding the left shift key down, plug in power and wait until the OS has booted. 
+In the event your pi is unable to boot, or is unstable, disconnect power from the pi.
+While holding the left shift key down, plug in power and wait until the OS has booted.
 This will cause the pi to ignore overclock settings during startup.
 Once the pi has booted, you can release the shift key and run `python -m boostpi --reset` to reset the pi's overclocking settings to factory defaults.
 """
-
