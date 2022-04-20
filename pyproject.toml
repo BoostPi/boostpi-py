@@ -3,7 +3,7 @@ name = "boostpi"
 version = "0.1.6"
 description = "A simple overclocking configuration tool for Raspberry Pi"
 license = "MIT"
-repository = "https://github.com/boostpi/boostpi"
+repository = "https://github.com/BoostPi/boostpi"
 readme = "README.md"
 authors = ["Alexander Swensen <alex.swensen@gmail.com>"]
 
